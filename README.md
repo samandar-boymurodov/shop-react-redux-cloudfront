@@ -69,3 +69,9 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+---
+# Task 2
+- CloudFront URL - https://d1zoydywrdx8mm.cloudfront.net
+- S3-website - http://epam-react-project-serverless.s3-website-eu-west-1.amazonaws.com
+  - It returns 403 error since objects are not public. Only accessible by CloudFront
